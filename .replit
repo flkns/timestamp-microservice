@@ -1,0 +1,7 @@
+run = "npm start"
+onBoot="echo Booting up!"
+
+entrypoint = "src/index.js"
+
+[packager]
+language = "nodejs"

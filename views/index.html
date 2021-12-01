@@ -1,0 +1,52 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: http://mozilla.github.io/nunjucks/ -->
+<!-- jade: http://jade-lang.com/ -->
+<!-- haml: http://haml.info/tutorial.html -->
+<!-- hbs(handlebars): http://handlebarsjs.com/expressions.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>@flkns | Timestamp Microservice</title>
+    <meta name="description" content="Timestamp Microservice for freeCodeCamp.org Project.">
+    <link
+      rel="shortcut icon"
+      href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <h1>Timestamp Microservice</h1>
+    <hr />
+    <div class="container">
+      <div class="example">
+        <h3>Example API GET Usage:</h3>
+        <ul>
+          <li><a href="api/2021-11-29">[root]/api/2021-11-29</a></li>
+          <li><a href="api/1451001600000">[root]/api/1451001600000</a></li>
+        </ul>
+        <hr />
+        <h3>Example API GET Output:</h3>
+        <p>
+          <code>{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}</code>
+        </p>
+      </div>
+
+      <div class="footer">
+        <p>Project Instructions @ <a href="https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/timestamp-microservice/">freeCodeCamp.org</a></p>
+      </div>
+    </div>
+  </body>
+</html>
